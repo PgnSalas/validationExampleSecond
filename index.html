@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body" novalidate>
+                <h1 class="form__title">Send the data</h1>
+
+                <div class="form__item">
+                    <lable for="formName" class="form__label">Name*:</lable>
+                    <input id="formName" type="text" name="name" class="form__input _req _name">
+                    <span class="error error-name"></span>
+                </div>
+
+                <div class="form__item">
+                    <lable for="formEmail" class="form__label">E-mail*:</lable>
+                    <input id="formEmail" type="email" name="email" class="form__input _req _email">
+                    <span class="error error-email"></span>
+                </div>
+
+                <div class="form__item">
+                    <lable for="formphone" class="form__label">Phone number*:</lable>
+                    <input id="formphone" type="tel" name="phone" class="form__input _req _phone">
+                    <span class="error error-phone"></span>
+                </div>
+
+                <div class="form__item">
+                    <lable for="forpassword" class="form__label">Password*:</lable>
+                    <input id="forpassword" type="password" name="password" class="form__input _req _password">
+                    <span class="error error-password"></span>
+                </div>
+
+                <!-- <div class="form__item">
+                    <div class="form__label">Are you left-handed or right-handed?</div>
+                    <div class="options">
+                        <div class="options__item">
+                            <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                            <label for="formRightHanded" class="options__label"><span>Right-handed</span></label>
+                        </div>
+                        <div class="options__item">
+                            <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                            <label for="formLeftHanded" class="options__label"><span>Left-handed</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form__label">The Message:</label>
+                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Your age:</div>
+                    <select name="age" class="select">
+                        <option value="from 18 till 25" selected>Young</option>
+                        <option value="from 25 till 45">Avarage age</option>
+                        <option value="from 45">Old</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Please, add a image</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                            <div class="file__button">Select</div>
+                        </div>
+                        <div class="file__preview"></div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input id="forAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                        <label for="forAgreement" class="checkbox__label"><span>I give my agreement to check my data</span></label>
+                    </div>
+                </div> -->
+
+                <button type="submit" class="form__button">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
